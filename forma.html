@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>forma</title>
+</head>
+<body>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h1>Registro Personal</h1>
+				<form>
+					<br>
+					<input type="text" name="nombre"id="1" placeholder="Nombre">
+					<br>
+					<br>
+					<input type="text" name="apellido" id="2" placeholder="Apellido">
+					<br><br>
+					<input type="text" name="correo" id="3" placeholder="Correo">
+					<br><br>
+					<input type="text" name="cedula" id="4" placeholder="Cedula">
+					<br><br>
+					<input type="text" name="telefono" id="5" placeholder="Telefono">
+					<br><br>
+					<textarea  name="direccion" id="6" cols="30" rows="10" placeholder="Direccion"></textarea>
+				</form> 
+				<button id="btn"  class="btn btn-danger">Registrar</button>
+				
+			</div>
+			<div class="col-md-6">
+				<h1>Personas registradas</h1>
+				<br><br>
+				<button id="btn2"  class="btn btn-success">Ver usuarios registrados</button>
+				<br><br>
+				<table class="table table-bordered">
+					<tr>
+						<th>Nombre</th>
+						<th>Apellido</th>
+						<th>Correo</th>
+						<th>Cedula</th>
+						<th>Telefono</th>
+						<th>direccion</th>
+					</tr>
+					<tr>
+						<td>Hector</td>
+						<td>Carreño</td>
+						<td>hector12j@gmail.com</td>
+						<td>23644389</td>
+						<td>02124225554</td>
+						<td>caracas</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="forma.js"></script>
+</body>
+</html>
